@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Minimal Messenger</title>
+		<link rel="stylesheet" href="../css/messengerStyle.css" />
+	</head>
+	<body>
+		<div class="chats_field">
+			<div class="chats_field_header">
+				<h2>Chats</h2>
+			</div>
+
+			<div class="chat_list">
+				<div class="chat_item active">
+					<div class="chat_name">Name</div>
+					<div class="last_message">Last message</div>
+				</div>
+			</div>
+		</div>
+		<div class="chat_area">
+			<div class="chat_header">
+				<div class="chat_title">Name</div>
+			</div>
+
+			<div class="messages"></div>
+
+			<div class="input_area">
+				<textarea
+					class="message_input"
+					placeholder="Написать сообщение..."
+				></textarea>
+				<div class="send_message_field">
+					<button class="send_message" type="button">></button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
